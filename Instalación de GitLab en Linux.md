@@ -7,7 +7,7 @@ A la vez que ***Github***, ***GitLab*** es un servicio web de control de version
 
 # Requisitos
 
-Será necesario Debian 11 o cualquier otra distro Linux, acceso a internet y permisos de administrador para el usuario.
+Será necesario Ubuntu 20.04 o cualquier otra distro Linux compatible, acceso a internet y permisos de administrador para el usuario.
 
 # Instalación en local
 
@@ -55,7 +55,7 @@ Comenzará ejecutarse el proceso de configuración. Llevará unos minutos.
 
 Para acceder debemos utilizar el navegador introduciendo en la url nuestra dirección IP o mediante localhost.
 
-Nos mostrará un panel de login y como es nuestro primer acceso debemos configurar su contraseña. Para ello, seguimos el siguiente enlace  [congigurar usuario root desde linea comandos](https://lab.las3.de/gitlab/help/security/reset_root_password.md), y posteriormente volvemos reconfigurar Gitlab para que se gurarden los cambios.
+Nos mostrará un panel de login y como es nuestro primer acceso debemos configurar su contraseña. Para ello, seguimos el siguiente enlace  [congigurar usuario root desde linea comandos](https://lab.las3.de/gitlab/help/security/reset_root_password.md), y posteriormente volvemos reconfigurar GitLab para que se guarden los cambios.
 
 ```console
 sudo gitlab-ctl reconfigure
